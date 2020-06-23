@@ -66,7 +66,7 @@ module.exports = {
         // invertLogo: false,
         // useStickyHeader: false,
         // useSocialLinks: true,
-        // useColorMode: true,
+        // useColorMode: false,
         // footerContentLocation: "left", // "left", "right", "center"
         // remarkImagesWidth: 1440,
       },

@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-catalyst",
-  "description": "Gatsby Starter: Gatsby-Theme-Catalyst-Core, Gatsby-Theme-Catalyst-header-top, Gatsby-Theme-Catalyst-footer",
-  "version": "1.2.12",
+  "name": "uiuc-mental-health-resources",
+  "description": "a compilation of mental health resources and healthy living practices at UIUC.",
+  "version": "1.0",
   "private": true,
-  "author": "Eric Howey <eric@erichowey.dev>",
+  "authors": "Amirtha Sureshbabu, Nikhil Garg", 
   "dependencies": {
     "gatsby": "^2.23.7",
     "gatsby-theme-catalyst-core": "^1.2.11",
@@ -17,9 +17,8 @@
     "prettier": "^2.0.5"
   },
   "keywords": [
-    "gatsby",
-    "gatsby-starter",
-    "gatsby-plugin"
+    "mental health",
+    "UIUC"
   ],
   "license": "MIT",
   "scripts": {
