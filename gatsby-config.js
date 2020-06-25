@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Catalyst`,
+    title: `CS@UIUC Mental Health`,
     description: `Speed up your GatsbyJS development workflow. Designed as a set of opinionated and advanced themes and starters using MDX and Theme-UI. Incorporates gatsby-theme-catalyst-core, gatsby-theme-catalyst-header-top, and gatsby-theme-catalyst-footer.`,
     keywords: [`gatsby`, `theme`, `react`],
     author: `Eric Howey`,
@@ -59,13 +59,13 @@ module.exports = {
         //Default options are:
         // contentPath: `content/pages`,
         // assetPath: `content/assets`,
-        // displaySiteLogo: true,
+        // displaySiteLogo: false,
         // displaySiteTitle: true,
         // displaySiteLogoMobile: true,
         // displaySiteTitleMobile: true,
         // invertLogo: false,
         // useStickyHeader: false,
-        // useSocialLinks: true,
+        useSocialLinks: false,
         // useColorMode: false,
         // footerContentLocation: "left", // "left", "right", "center"
         // remarkImagesWidth: 1440,
@@ -82,7 +82,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#cccccc`,
         display: `minimal-ui`,
-        icon: `content/assets/catalyst-site-icon.png`, // This path is relative to the root of the site.
+        icon: `content/assets/favicon.png`, // This path is relative to the root of the site.
       },
     },
   ],
