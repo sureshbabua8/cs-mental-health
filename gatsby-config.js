@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `CS@UIUC Mental Health`,
-    description: `Speed up your GatsbyJS development workflow. Designed as a set of opinionated and advanced themes and starters using MDX and Theme-UI. Incorporates gatsby-theme-catalyst-core, gatsby-theme-catalyst-header-top, and gatsby-theme-catalyst-footer.`,
+    title: `CS@UIUC Community`,
+    description: `Welcome to the UIUC Community!`,
     keywords: [`gatsby`, `theme`, `react`],
-    author: `Eric Howey`,
+    author: `Amirtha Sureshbabu, Nikhil Garg`,
     siteUrl: `https://gatsby-starter-catalyst.netlify.app`, //Change to you site address, required for sitemap.xml and robots.txt file among other things
     menuLinks: [
       {
