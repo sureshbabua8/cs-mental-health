@@ -1,5 +1,6 @@
 import React from 'react'
 import { StaticQuery, graphql } from "gatsby"
+import { Box } from 'theme-ui'
 
 const divStyle = {
   backgroundColor: '#c277ed'
@@ -16,9 +17,12 @@ export default function Resource() {
           }
           `}
           render={data => (
-            <div style={divStyle}>
-              <span>{data.dataJson.name}</span>
-            </div>
+            <Box
+              p={4}
+              color='white'
+              bg='primary'>
+              {data.dataJson.name}
+          </Box>
           )}
         />
       )
