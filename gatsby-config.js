@@ -57,8 +57,8 @@ module.exports = {
       resolve: `gatsby-theme-catalyst-core`,
       options: {
         //Default options are:
-        // contentPath: `content/pages`,
-        // assetPath: `content/assets`,
+        contentPath: `content/pages`,
+        assetPath: `content/assets`,
         // displaySiteLogo: false,
         // displaySiteTitle: true,
         // displaySiteLogoMobile: true,
