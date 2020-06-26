@@ -71,6 +71,13 @@ module.exports = {
         // remarkImagesWidth: 1440,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `data`,
+        path: `src/data`
+      }
+    },
     `gatsby-theme-catalyst-header-top`, // Try `gatsby-theme-catalyst-header-side`
     `gatsby-theme-catalyst-footer`,
     {

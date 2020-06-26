@@ -1,22 +1,24 @@
 import React from 'react'
 import { StaticQuery, graphql } from "gatsby"
 
+const divStyle = {
+  backgroundColor: '#c277ed'
+};
+
 export default function Resource() {
     return (
         <StaticQuery
           query={graphql`
-            query HeadingQuery {
-              site {
-                siteMetadata {
-                  title
-                }
-              }
+          query MyQuery {
+            dataJson {
+              name
             }
+          }
           `}
           render={data => (
-            <header>
-              <h1>{data.site.siteMetadata.title}</h1>
-            </header>
+            <div style={divStyle}>
+              <span>{data.dataJson.name}</span>
+            </div>
           )}
         />
       )
