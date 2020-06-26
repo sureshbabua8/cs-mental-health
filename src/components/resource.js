@@ -1,9 +1,12 @@
 import React from 'react'
 import { StaticQuery, graphql } from "gatsby"
-import { Box } from 'theme-ui'
+import Box from '@material-ui/core/Box'
+import { Link } from 'theme-ui'
+import { jsx } from 'theme-ui'
 
-const divStyle = {
-  backgroundColor: '#c277ed'
+
+const boxStyle = {
+  bgcolor: '#cc83eb'
 };
 
 export default function Resource() {
@@ -13,16 +16,19 @@ export default function Resource() {
           query MyQuery {
             dataJson {
               name
+              url
+              contactInformation {
+                email
+              }
             }
           }
           `}
           render={data => (
-            <Box
-              p={4}
-              color='white'
-              bg='primary'>
-              {data.dataJson.name}
-          </Box>
+            <div style={{ width: '100%' }}>
+              <Box display="grid" p={4} bgcolor="#cc83eb" alignItems='center'>
+              <Link href={data.dataJson.url}><h1>{data.dataJson.name}</h1></Link>
+              </Box>
+            </div>
           )}
         />
       )

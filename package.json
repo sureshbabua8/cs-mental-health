@@ -3,8 +3,9 @@
   "description": "a compilation of mental health resources and healthy living practices at UIUC.",
   "version": "1.0",
   "private": true,
-  "authors": "Amirtha Sureshbabu, Nikhil Garg", 
+  "authors": "Amirtha Sureshbabu, Nikhil Garg",
   "dependencies": {
+    "@material-ui/core": "^4.10.2",
     "gatsby": "^2.23.7",
     "gatsby-theme-catalyst-core": "^1.2.11",
     "gatsby-theme-catalyst-footer": "^1.1.4",
