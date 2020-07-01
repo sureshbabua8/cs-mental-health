@@ -26,22 +26,79 @@
     {
         "name": "ACM Mental Health Awareness Night",
         "url": "https://www.youtube.com/watch?v=dr2xYkUokQo",
-        "contactInformation": {
-            "email": ""
-        }
+        "description": "Students get to learn more about tips and ways to manage mental well being, as well as mental health resources on campus, and in the surrounding area. The event also includes representatives from the Computer Science Department, College of Engineering, and Counseling Center. 
+        This video was recorded during a prior ACM Mental Health Awareness Night, and another will be held soon.",
+        "address": "Siebel Center",
+        "contactInformation": []
     },
     {
         "name": "CS Community Social Hours",
         "url": "",
-        "contactInformation": {
-            "email": ""
-        }
+        "description": "Safe spaces to meet and talk, hosted by CS staff and faculty. There'll be more information coming soon for this resource.",
+        "address": "Siebel Center",
+        "contactInformation": []
     },
     {
         "name": "CS Advising",
-        "url": "",
-        "contactInformation": {
-            "email": ""
-        }
+        "url": "https://cs.illinois.edu/academics/undergraduate/undergraduate-advising",
+        "description": "In general, CS Advising is available to help students navigate their degree requirements and policies of their department, their college, and the university as a whole. CS advisors can help you plan your course schedule, review your degree requirements, and assess your progress.
+        CS Advising can also help refer students to someone who can help if they're struggling - academically or otherwise.",
+        "address": "1210 Siebel Center",
+        "contactInformation": [
+            {
+                "name": "Elizabeth Gonzalez",
+                "title": "Undergraduate Academic Advisor",
+                "email": "mailto:egon@illinois.edu",
+                "phone": ""
+            },
+            {
+                "name": "Katrina Jones",
+                "title": "Undergraduate Academic Advisor",
+                "email": "mailto:krjames@illinois.edu",
+                "phone": ""
+            },
+            {
+                "name": "Heather Zike",
+                "title": "Undergraduate Academic Advisor",
+                "email": "mailto:hlzike@illinois.edu",
+                "phone": ""
+            }
+        ]
     },
+    {
+        "name": "Counseling Center",
+        "url": "https://www.counselingcenter.illinois.edu/",
+        "description": "The Counseling Center is committed to providing a broad range of high quality, innovative, and ethical services that address the psychological, educational, social, and developmental needs of University of Illinois at Urbana-Champaign students. We also actively contribute to
+        the campus’ broader academic mission by training and developing students and professionals, helping build a multicultural learning community, and providing leadership in forming collaborative partnerships among Student Affairs, Academic Affairs, the Graduate College, and Administrative
+        Affairs units",
+        "address": "Room 206, Student Services Building",
+        "contactInformation": [
+            {
+                "name": "",
+                "title": "Counseling Center Information",
+                "email": "",
+                "phone": "(217) 333-3704"
+            },
+            {
+                "name": "Ken Nafziger",
+                "title": "College of Engineering Embedded Counselor",
+                "email": "mailto:kn7@illinois.edu",
+                "phone": ""
+            },
+            {
+                "name": "Tabitha Cochran",
+                "title": "College of LAS Embedded Counselor",
+                "email": "mailto:twalqu2@illinois.edu",
+                "phone": ""
+            }
+        ]
+    },
+    {
+        "name": "McKinley Health",
+        "url": "https://www.mckinley.illinois.edu/medical-services/mental-health",
+        "description": "",
+        "address": "",
+        "contactInformation": []
+    }
+
 ]    
