@@ -5,3 +5,43 @@
         "email": "mailto:kn7@illinois.edu"
     }
 }
+
+[
+    { 
+        "name": "CS SOS Presentation",
+        "url": "https://cs.illinois.edu/academics/undergraduate/cs-student-opportunity-series-cs-sos",
+        "description": "The CS Student Opportunity Series (SOS) provides tools and resources for undergraduate students in CS majors to grow academically, professionally, and personally. Each semester, students hear presentations from experts about a variety of topics.  
+        Thanks to students from CS Registered Student Organizations, each presentation includes a student panel to help CS students practically implement strategies for success.",
+        "address": "Siebel Center",
+        "contactInformation": []
+    },
+    {
+        "name": "ACM x WCS x BAAC Mentoring Program",
+        "url": "",
+        "description": "This is a mentoring program, coordinated by ACM, WCS, and BAAC. This mentoring program is for current CS students to help guide and support other CS students and prospective students. This mentoring program holds meetings and also 1 on 1 sessions
+        between mentors and mentees, so mentees can ask questions about CS@UIUC, or just questions about the University as a whole.",
+        "address": "Siebel Center",
+        "contactInformation": []
+    },
+    {
+        "name": "ACM Mental Health Awareness Night",
+        "url": "https://www.youtube.com/watch?v=dr2xYkUokQo",
+        "contactInformation": {
+            "email": ""
+        }
+    },
+    {
+        "name": "CS Community Social Hours",
+        "url": "",
+        "contactInformation": {
+            "email": ""
+        }
+    },
+    {
+        "name": "CS Advising",
+        "url": "",
+        "contactInformation": {
+            "email": ""
+        }
+    },
+]    
