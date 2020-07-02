@@ -46,19 +46,19 @@
         "address": "1210 Siebel Center",
         "contactInformation": [
             {
-                "name": "Elizabeth Gonzalez",
+                "contactName": "Elizabeth Gonzalez",
                 "title": "Undergraduate Academic Advisor",
                 "email": "mailto:egon@illinois.edu",
                 "phone": ""
             },
             {
-                "name": "Katrina Jones",
+                "contactName": "Katrina Jones",
                 "title": "Undergraduate Academic Advisor",
                 "email": "mailto:krjames@illinois.edu",
                 "phone": ""
             },
             {
-                "name": "Heather Zike",
+                "contactName": "Heather Zike",
                 "title": "Undergraduate Academic Advisor",
                 "email": "mailto:hlzike@illinois.edu",
                 "phone": ""
@@ -70,23 +70,23 @@
         "url": "https://www.counselingcenter.illinois.edu/",
         "description": "The Counseling Center is committed to providing a broad range of high quality, innovative, and ethical services that address the psychological, educational, social, and developmental needs of University of Illinois at Urbana-Champaign students. We also actively contribute to
         the campus’ broader academic mission by training and developing students and professionals, helping build a multicultural learning community, and providing leadership in forming collaborative partnerships among Student Affairs, Academic Affairs, the Graduate College, and Administrative
-        Affairs units",
+        Affairs units.",
         "address": "Room 206, Student Services Building",
         "contactInformation": [
             {
-                "name": "",
+                "contactName": "",
                 "title": "Counseling Center Information",
                 "email": "",
                 "phone": "(217) 333-3704"
             },
             {
-                "name": "Ken Nafziger",
+                "contactName": "Ken Nafziger",
                 "title": "College of Engineering Embedded Counselor",
                 "email": "mailto:kn7@illinois.edu",
                 "phone": ""
             },
             {
-                "name": "Tabitha Cochran",
+                "contactName": "Tabitha Cochran",
                 "title": "College of LAS Embedded Counselor",
                 "email": "mailto:twalqu2@illinois.edu",
                 "phone": ""
@@ -96,9 +96,105 @@
     {
         "name": "McKinley Health",
         "url": "https://www.mckinley.illinois.edu/medical-services/mental-health",
-        "description": "",
+        "description": "The Mental Health unit at McKinley Health Center (McKinley) provides assessment and recommendations for subsequent treatment for a variety of emotional and behavioral difficulties. Short-term individual psychotherapy, up to a few sessions, is provided as indicated.",
+        "address": "McKinley Health Center",
+        "contactInformation": []
+    },
+    {
+        "name": "Women's Resource Center",
+        "url": "https://oiir.illinois.edu/womens-center",
+        "description": "The mission of the Women's Resources Center is to improve the campus climate for womxn students, which we do by developing and implementing programs that address social issues through an intersectional lens. The Center also serves as the designated provider of 
+        Confidential Advising services, offering advocacy and support services to students, faculty, and staff who have experienced sexual misconduct (sexual assault, sexual harassment, sexual exploitation, stalking, and/or dating/domestic violence).",
+        "address": "616 E. Green St., Suite 202",
+        "contactInformation": [
+            {
+                "contactName": "",
+                "title": "Confidential Advisor",
+                "email": "mailto:womenscenter@illinois.edu",
+                "phone": "(217) 333-3137"
+            }
+        ]
+    },
+    {
+        "name": "Disability Resources and Educational Services (DRES)",
+        "url": "https://www.disability.illinois.edu/",
+        "description": "The mission of the Division of Disability Resources and Educational Services is to ensure that qualified individuals with disabilities are afforded an equal opportunity to participate in and benefit from the programs, services and activities 
+        of the University of Illinois at Urbana-Champaign through the identification and enactment of reasonable modifications to institutional policies and procedures, the provision of effective auxiliary aids and services, the establishment of innovative educational services, 
+        and the pursuit of interdisciplinary disability research.",
+        "address": "1207 S. Oak St.",
+        "contactInformation": [
+            {
+                "contactName": "",
+                "title": "",
+                "email": "disability@illinois.edu",
+                "phone": "(217) 244-0014"
+            }
+        ]
+    },
+    {
+        "name": "Psychological Services Center (PSC)",
+        "url": "https://psc.illinois.edu/",
+        "description": "The Psychological Services Center (PSC), is operated by the Department of Psychology at the University of Illinois, Urbana-Champaign. Our Center directly contributes to the University mission of transforming lives and serving society by 
+        putting knowledge to work by providing culturally relevant, evidence-based, therapy, evaluations, workshops, and consultation services to local residents and campus members.",
+        "address": "505 E. Green St., 3rd floor",
+        "contactInformation": [
+            {
+                "contactName": "",
+                "title": "",
+                "email": "",
+                "phone": "(217) 333-0041"
+            }
+        ]
+    },
+    {
+        "name": "Center for Wounded Veterans in Higher Education",
+        "url": "http://woundedvetcenter.ahs.illinois.edu/", 
+        "description": "Through educational innovations, research breakthroughs, and a dedicated staff of counselors and specialists, the Center supports student veterans' health and full participation in society.",
+        "address": "908 W. Nevada St.",
+        "contactInformation": [
+            {
+                "contactName": "",
+                "title": "",
+                "email": "",
+                "phone": "(217) 300-3515"
+            }
+        ]
+    },
+    {
+        "name": "Student Assistance Center",
+        "url": "https://go.illinois.edu/sac",
+        "description": "The Student Assistance Center is a collaborative resource that promotes the holistic growth and development of Illinois students. To that end, the center partners with students, faculty, staff, and family members to address 
+        disruptions to students’ academic and social stability or behaviors that cause distress in our community. The center strives to foster a community of care in which all members have a personal responsibility to themselves and others.",
+        "address": "Turner Student Services Building, 3rd floor",
+        "contactInformation": [
+            {
+                "contactName": "",
+                "title": "",
+                "email": "mailto:helpdean@illinois.edu",
+                "phone": "(217) 333-0050"
+            }
+        ]
+    },
+    {
+        "name": "Emergency Dean",
+        "url": "https://go.illinois.edu/edean",
+        "description": "One of the resources the University makes available to students is the support and guidance of a University administrator who is on call and can be reached when University offices are closed. The Emergency Dean supports 
+        students who are experiencing health or safety emergency situations in which an immediate University response is needed and which cannot wait until the next business day.",
+        "address": "Turner Student Services Building, 3rd floor",
+        "contactInformation": [
+            {
+                "contactName": "",
+                "title": "",
+                "email": "mailto:helpdean@illinois.edu",
+                "phone": "(217) 333-0050"
+            }
+        ]
+    },
+    {
+        "name": "We Care",
+        "url": "http://wecare.illinois.edu",
+        "description": "University of Illinois offices and services that are available to assist students, faculty, and staff related to sexual assault and harassment, stalking, sexual exploitation, dating violence, and domestic violence.",
         "address": "",
         "contactInformation": []
     }
-
 ]    
