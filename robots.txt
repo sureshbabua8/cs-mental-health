@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://gatsby-starter-catalyst.netlify.app/sitemap.xml
-Host: https://gatsby-starter-catalyst.netlify.app
+Sitemap: https://sureshbabua8.github.io/sitemap.xml
+Host: https://sureshbabua8.github.io
