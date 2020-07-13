@@ -6,19 +6,19 @@ export default merge(BaseTheme, {
   colors: {
     modes: {
       dark: {
-        background: "#98c3fa",
+        background: "#3252a8",
         header: {
-          background: "#98c3fa",
-          backgroundOpen: "#98c3fa",
-          text: "white",
-          textOpen: "white",
+          background: "#3252a8",
+          backgroundOpen: "#3252a8",
+          text: "#ebebeb",
+          textOpen: "#ebebeb",
           icons: "gray",
           iconsOpen: "gray",
         },
         footer: {
-          background: "#010101",
-          text: "white",
-          links: "white",
+          background: "#3252a8",
+          text: "#ebebeb",
+          links: "#ebebeb",
           icons: "gray",
         },
       },

@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `CS@UIUC Community`,
+    title: `CS@Illinois Community`,
     description: `Welcome to the UIUC Community!`,
     keywords: [`gatsby`, `theme`, `react`],
     author: `Amirtha Sureshbabu, Nikhil Garg`,
@@ -53,6 +53,12 @@ module.exports = {
     ],
   },
   plugins: [
+    // { resolve: `gatsby-transformer-json`,
+    //   options: {
+    //     name: `data`,
+    //     path: `/src/data`
+    //   }
+    // },
     {
       resolve: `gatsby-theme-catalyst-core`,
       options: {
@@ -71,6 +77,7 @@ module.exports = {
         // remarkImagesWidth: 1440,
       },
     },
+    "gatsby-transformer-json",
     {
       resolve: `gatsby-source-filesystem`,
       options: {

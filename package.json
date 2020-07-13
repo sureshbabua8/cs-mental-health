@@ -7,14 +7,17 @@
   "dependencies": {
     "@material-ui/core": "^4.10.2",
     "gatsby": "^2.23.7",
+    "gatsby-source-filesystem": "^2.3.19",
     "gatsby-theme-catalyst-core": "^1.2.11",
     "gatsby-theme-catalyst-footer": "^1.1.4",
     "gatsby-theme-catalyst-header-side": "^1.1.6",
     "gatsby-theme-catalyst-header-top": "^1.1.6",
+    "gatsby-transformer-json": "^2.4.11",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
+    "gh-pages": "^3.1.0",
     "prettier": "^2.0.5"
   },
   "keywords": [

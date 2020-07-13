@@ -1,33 +1,22 @@
-{ 
-    "name": "Counseling Center",
-    "url": "https://www.counselingcenter.illinois.edu/",
-    "contactInformation": {
-        "email": "mailto:kn7@illinois.edu"
-    }
-}
-
 [
     { 
         "name": "CS SOS Presentation",
         "url": "https://cs.illinois.edu/academics/undergraduate/cs-student-opportunity-series-cs-sos",
-        "description": "The CS Student Opportunity Series (SOS) provides tools and resources for undergraduate students in CS majors to grow academically, professionally, and personally. Each semester, students hear presentations from experts about a variety of topics.  
-        Thanks to students from CS Registered Student Organizations, each presentation includes a student panel to help CS students practically implement strategies for success.",
+        "description": "The CS Student Opportunity Series (SOS) provides tools and resources for undergraduate students in CS majors to grow academically, professionally, and personally. Each semester, students hear presentations from experts about a variety of topics.  Thanks to students from CS Registered Student Organizations, each presentation includes a student panel to help CS students practically implement strategies for success.",
         "address": "Siebel Center",
         "contactInformation": []
     },
     {
         "name": "ACM x WCS x BAAC Mentoring Program",
         "url": "",
-        "description": "This is a mentoring program, coordinated by ACM, WCS, and BAAC. This mentoring program is for current CS students to help guide and support other CS students and prospective students. This mentoring program holds meetings and also 1 on 1 sessions
-        between mentors and mentees, so mentees can ask questions about CS@UIUC, or just questions about the University as a whole.",
+        "description": "This is a mentoring program, coordinated by ACM, WCS, and BAAC. This mentoring program is for current CS students to help guide and support other CS students and prospective students. This mentoring program holds meetings and also 1 on 1 sessions between mentors and mentees, so mentees can ask questions about CS@UIUC, or just questions about the University as a whole.",
         "address": "Siebel Center",
         "contactInformation": []
     },
     {
         "name": "ACM Mental Health Awareness Night",
         "url": "https://www.youtube.com/watch?v=dr2xYkUokQo",
-        "description": "Students get to learn more about tips and ways to manage mental well being, as well as mental health resources on campus, and in the surrounding area. The event also includes representatives from the Computer Science Department, College of Engineering, and Counseling Center. 
-        This video was recorded during a prior ACM Mental Health Awareness Night, and another will be held soon.",
+        "description": "Students get to learn more about tips and ways to manage mental well being, as well as mental health resources on campus, and in the surrounding area. The event also includes representatives from the Computer Science Department, College of Engineering, and Counseling Center. This video was recorded during a prior ACM Mental Health Awareness Night, and another will be held soon.",
         "address": "Siebel Center",
         "contactInformation": []
     },
@@ -41,8 +30,7 @@
     {
         "name": "CS Advising",
         "url": "https://cs.illinois.edu/academics/undergraduate/undergraduate-advising",
-        "description": "In general, CS Advising is available to help students navigate their degree requirements and policies of their department, their college, and the university as a whole. CS advisors can help you plan your course schedule, review your degree requirements, and assess your progress.
-        CS Advising can also help refer students to someone who can help if they're struggling - academically or otherwise.",
+        "description": "In general, CS Advising is available to help students navigate their degree requirements and policies of their department, their college, and the university as a whole. CS advisors can help you plan your course schedule, review your degree requirements, and assess your progress.  CS Advising can also help refer students to someone who can help if they're struggling - academically or otherwise.",
         "address": "1210 Siebel Center",
         "contactInformation": [
             {
@@ -68,9 +56,7 @@
     {
         "name": "Counseling Center",
         "url": "https://www.counselingcenter.illinois.edu/",
-        "description": "The Counseling Center is committed to providing a broad range of high quality, innovative, and ethical services that address the psychological, educational, social, and developmental needs of University of Illinois at Urbana-Champaign students. We also actively contribute to
-        the campus’ broader academic mission by training and developing students and professionals, helping build a multicultural learning community, and providing leadership in forming collaborative partnerships among Student Affairs, Academic Affairs, the Graduate College, and Administrative
-        Affairs units.",
+        "description": "The Counseling Center is committed to providing a broad range of high quality, innovative, and ethical services that address the psychological, educational, social, and developmental needs of University of Illinois at Urbana-Champaign students. We also actively contribute to the campus’ broader academic mission by training and developing students and professionals, helping build a multicultural learning community, and providing leadership in forming collaborative partnerships among Student Affairs, Academic Affairs, the Graduate College, and Administrative Affairs units.",
         "address": "Room 206, Student Services Building",
         "contactInformation": [
             {
@@ -103,8 +89,7 @@
     {
         "name": "Women's Resource Center",
         "url": "https://oiir.illinois.edu/womens-center",
-        "description": "The mission of the Women's Resources Center is to improve the campus climate for womxn students, which we do by developing and implementing programs that address social issues through an intersectional lens. The Center also serves as the designated provider of 
-        Confidential Advising services, offering advocacy and support services to students, faculty, and staff who have experienced sexual misconduct (sexual assault, sexual harassment, sexual exploitation, stalking, and/or dating/domestic violence).",
+        "description": "The mission of the Women's Resources Center is to improve the campus climate for womxn students, which we do by developing and implementing programs that address social issues through an intersectional lens. The Center also serves as the designated provider of Confidential Advising services, offering advocacy and support services to students, faculty, and staff who have experienced sexual misconduct (sexual assault, sexual harassment, sexual exploitation, stalking, and/or dating/domestic violence).",
         "address": "616 E. Green St., Suite 202",
         "contactInformation": [
             {
@@ -118,9 +103,7 @@
     {
         "name": "Disability Resources and Educational Services (DRES)",
         "url": "https://www.disability.illinois.edu/",
-        "description": "The mission of the Division of Disability Resources and Educational Services is to ensure that qualified individuals with disabilities are afforded an equal opportunity to participate in and benefit from the programs, services and activities 
-        of the University of Illinois at Urbana-Champaign through the identification and enactment of reasonable modifications to institutional policies and procedures, the provision of effective auxiliary aids and services, the establishment of innovative educational services, 
-        and the pursuit of interdisciplinary disability research.",
+        "description": "The mission of the Division of Disability Resources and Educational Services is to ensure that qualified individuals with disabilities are afforded an equal opportunity to participate in and benefit from the programs, services and activities of the University of Illinois at Urbana-Champaign through the identification and enactment of reasonable modifications to institutional policies and procedures, the provision of effective auxiliary aids and services, the establishment of innovative educational services, and the pursuit of interdisciplinary disability research.",
         "address": "1207 S. Oak St.",
         "contactInformation": [
             {
@@ -134,8 +117,7 @@
     {
         "name": "Psychological Services Center (PSC)",
         "url": "https://psc.illinois.edu/",
-        "description": "The Psychological Services Center (PSC), is operated by the Department of Psychology at the University of Illinois, Urbana-Champaign. Our Center directly contributes to the University mission of transforming lives and serving society by 
-        putting knowledge to work by providing culturally relevant, evidence-based, therapy, evaluations, workshops, and consultation services to local residents and campus members.",
+        "description": "The Psychological Services Center (PSC), is operated by the Department of Psychology at the University of Illinois, Urbana-Champaign. Our Center directly contributes to the University mission of transforming lives and serving society by putting knowledge to work by providing culturally relevant, evidence-based, therapy, evaluations, workshops, and consultation services to local residents and campus members.",
         "address": "505 E. Green St., 3rd floor",
         "contactInformation": [
             {
@@ -163,8 +145,7 @@
     {
         "name": "Student Assistance Center",
         "url": "https://go.illinois.edu/sac",
-        "description": "The Student Assistance Center is a collaborative resource that promotes the holistic growth and development of Illinois students. To that end, the center partners with students, faculty, staff, and family members to address 
-        disruptions to students’ academic and social stability or behaviors that cause distress in our community. The center strives to foster a community of care in which all members have a personal responsibility to themselves and others.",
+        "description": "The Student Assistance Center is a collaborative resource that promotes the holistic growth and development of Illinois students. To that end, the center partners with students, faculty, staff, and family members to address disruptions to students’ academic and social stability or behaviors that cause distress in our community. The center strives to foster a community of care in which all members have a personal responsibility to themselves and others.",
         "address": "Turner Student Services Building, 3rd floor",
         "contactInformation": [
             {
@@ -178,8 +159,7 @@
     {
         "name": "Emergency Dean",
         "url": "https://go.illinois.edu/edean",
-        "description": "One of the resources the University makes available to students is the support and guidance of a University administrator who is on call and can be reached when University offices are closed. The Emergency Dean supports 
-        students who are experiencing health or safety emergency situations in which an immediate University response is needed and which cannot wait until the next business day.",
+        "description": "One of the resources the University makes available to students is the support and guidance of a University administrator who is on call and can be reached when University offices are closed. The Emergency Dean supports students who are experiencing health or safety emergency situations in which an immediate University response is needed and which cannot wait until the next business day.",
         "address": "Turner Student Services Building, 3rd floor",
         "contactInformation": [
             {

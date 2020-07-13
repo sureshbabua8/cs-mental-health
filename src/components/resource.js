@@ -14,22 +14,26 @@ export default function Resource() {
         <StaticQuery
           query={graphql`
           query MyQuery {
-            dataJson {
-              name
-              url
-              contactInformation {
-                email
+            allMentalHealthResourcesJson {
+              edges {
+                node {
+                  name
+                  url
+                  description
+                  address
+                  contactInformation {
+                    contactName
+                    email
+                    phone
+                    title
+                  }
+                }
               }
             }
           }
           `}
           render={data => (
-            <div style={{ font: "Georgia", width: '100%' }}>
-              <Box display="grid" p={3} bgcolor="#63a1d0" alignItems='center' textAlign='left'>
-              <Link color="white" font='Georgia' href={data.dataJson.url}><h1>{data.dataJson.name}</h1></Link>
-              <Divider/>
-              </Box>
-            </div>
+            <div>{getResources(data)}</div>
           )}
         />
       )
@@ -37,4 +41,21 @@ export default function Resource() {
 
 function getResources(data) {
   const arr = [];
+  data.allMentalHealthResourcesJson.edges.forEach(element => {
+    arr.push(<div style={{ font: "Georgia", width: '100%' }}>
+    <Box display="grid" p={3} bgcolor="#63a1d0" alignItems='center' textAlign='left'>
+    <Link color="white" font='Georgia' href={element.node.url} target="__blank"><h1>{element.node.name}</h1></Link>
+    <h2>{element.node.address}</h2>
+    <div>
+      <p>{element.node.contactInformation.contactName}</p>
+      <p>{element.node.contactInformation.email}</p>
+      <p>{element.node.contactInformation.phone}</p>
+      <p>{element.node.contactInformation.title}</p>
+    </div>
+    <p>{element.node.description}</p>
+    <Divider/>
+    </Box>
+  </div>)
+  });
+  return arr;
 }
